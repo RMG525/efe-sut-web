@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>EFE Süt | Yöresel ve Doğal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top-bar">
+        <span>%100 Doğal ve Yöresel Ürünler</span>
+        <span>Tüm Türkiye'ye Güvenli Teslimat</span>
+    </div>
+
+    <header class="main-header">
+        <div class="logo-alani">
+            <a href="#" class="kategori-link" data-hedef="ana_sayfa" style="text-decoration: none;">
+                <h1><span style="color: #c0392b;">EFE</span> <span style="color: #2980b9;">SÜT</span></h1>
+            </a>
+            <p>Doğadan Sofranıza</p>
+        </div>
+        
+        <div class="sepet-alani">
+            <h3 style="margin-top:0; color:#2980b9; font-size:16px;">🛒 Sepetiniz</h3>
+            <ul id="sepet-listesi"></ul>
+            <p id="sepet-sayaci">Sepetiniz boş.</p>
+            <button id="siparisi-tamamla">Whatsapp ile Siparişi Onayla</button>
+        </div>
+    </header>
+
+    <nav class="kategori-menu">
+        <ul>
+            <li><a href="#" class="kategori-link" data-hedef="ana_sayfa">Ana Sayfa</a></li>
+            <li><a href="#" class="kategori-link aktif" data-hedef="hepsi">Tüm Ürünler</a></li>
+            <li><a href="#" class="kategori-link" data-hedef="kaymak">Kaymak</a></li>
+            <li><a href="#" class="kategori-link" data-hedef="tereyagi">Tereyağı</a></li>
+            <li><a href="#" class="kategori-link" data-hedef="peynirler">Peynirler</a></li>
+            <li><a href="#" class="kategori-link" data-hedef="ballar">Ballar</a></li>
+            <li><a href="#" class="kategori-link" data-hedef="yoresel">Erzurum Yöresel Ürünler</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section class="urun-kapsayici kategori-bolumu gizli" id="ana_sayfa">
+            <h2 style="color: #1a5276; margin-bottom: 20px;">EFE Süt'e Hoş Geldiniz</h2>
+            <div style="max-width: 800px; margin: 0 auto; text-align: center; line-height: 1.8; font-size: 16px;">
+                <p>Erzurum'un doğal yaylalarından elde ettiğimiz sütlerle ürettiğimiz yöresel lezzetlerimizi Türkiye'nin dört bir yanına güvenle ulaştırıyoruz. Ürünlerimizde hiçbir katkı maddesi bulunmamaktadır.</p>
+                <br>
+                <h3 style="color: #2980b9;">İletişim & Sosyal Medya</h3>
+                <div style="margin-top: 20px;">
+                    <a href="https://wa.me/905551234567" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #25d366; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; margin-right: 15px;">WhatsApp Hattı</a>
+                    <a href="INSTAGRAM_LINKI" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #c13584; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; margin-right: 15px;">Instagram</a>
+                    <a href="FACEBOOK_LINKI" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #4267B2; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">Facebook</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="urun-kapsayici kategori-bolumu" id="kaymak">
+            <h2>Kaymak Çeşitlerimiz</h2>
+            <div class="urun-katalogu">
+                <article data-aciklama="Erzurum yaylalarında otlayan ineklerimizin sütünden elde edilen %100 doğal tereyağlık kaymağımız. Hiçbir katkı maddesi içermez. Ortalama dayanma süresi buzdolabında 10 gündür.">
+                    <img src="https://via.placeholder.com/250" alt="Kaymak">
+                    <h3>Tereyağlık Kaymak (1000 gr)</h3>
+                    <p class="fiyat">485 ₺</p>
+                    <button class="sepete-ekle-butonu" data-urun="Tereyağlık Kaymak (1000 gr)" data-fiyat="485">Sepete Ekle</button>
+                </article>
+                <article>
+                    <img src="https://via.placeholder.com/250" alt="Kaymak">
+                    <h3>Kaymak (950 gr)</h3>
+                    <p class="fiyat">495 ₺</p>
+                    <button class="sepete-ekle-butonu" data-urun="Kaymak (950 gr)" data-fiyat="495">Sepete Ekle</button>
+                </article>
+                <article>
+                    <img src="https://via.placeholder.com/250" alt="Kaymak">
+                    <h3>Kaymak (200 gr)</h3>
+                    <p class="fiyat">115 ₺</p>
+                    <button class="sepete-ekle-butonu" data-urun="Kaymak (200 gr)" data-fiyat="115">Sepete Ekle</button>
+                </article>
+            </div>
+        </section>
+        
+        <section class="urun-kapsayici kategori-bolumu" id="tereyagi" style="background-color: #ffffff; border-top: 1px solid #eee;">
+            <h2>Tereyağı Çeşitlerimiz</h2>
+            <div class="urun-katalogu">
+                <article>
+                    <img src="https://via.placeholder.com/250" alt="Erzurum Tereyağı 500 gr">
+                    <h3>Erzurum Tereyağı (500 gr)</h3>
+                    <p class="fiyat">332,50 ₺</p>
+                    <button class="sepete-ekle-butonu" data-urun="Erzurum Tereyağı (500 gr)" data-fiyat="332.5">Sepete Ekle</button>
+                </article>
+                <article>
+                    <img src="https://via.placeholder.com/250" alt="Erzurum Tereyağı 950 gr">
+                    <h3>Erzurum Tereyağı (950 gr)</h3>
+                    <p class="fiyat">646 ₺</p>
+                    <button class="sepete-ekle-butonu" data-urun="Erzurum Tereyağı (950 gr)" data-fiyat="646">Sepete Ekle</button>
+                </article>
+                <article>
+                    <img src="https://via.placeholder.com/250" alt="Erzurum Tereyağı 1000 gr">
+                    <h3>Erzurum Tereyağı (1000 gr)</h3>
+                    <p class="fiyat">646 ₺</p>
+                    <button class="sepete-ekle-butonu" data-urun="Erzurum Tereyağı (1000 gr)" data-fiyat="646">Sepete Ekle</button>
+                </article>
+                <article>
+                    <img src="https://via.placeholder.com/250" alt="Erzurum Tereyağı 2000 gr">
+                    <h3>Erzurum Tereyağı 2000 gr <br><span style="font-size: 12px; color: #7f8c8d;">(Net 1910 gr)</span></h3>
+                    <p class="fiyat">1.292 ₺</p>
+                    <button class="sepete-ekle-butonu" data-urun="Erzurum Tereyağı 2000 gr (Net 1910 gr)" data-fiyat="1292">Sepete Ekle</button>
+                </article>
+                <article>
+                    <img src="https://via.placeholder.com/250" alt="Erzurum Tereyağı 3000 gr">
+                    <h3>Erzurum Tereyağı 3000 gr <br><span style="font-size: 12px; color: #7f8c8d;">(Net 2870 gr)</span></h3>
+                    <p class="fiyat">1.938 ₺</p>
+                    <button class="sepete-ekle-butonu" data-urun="Erzurum Tereyağı 3000 gr (Net 2870 gr)" data-fiyat="1938">Sepete Ekle</button>
+                </article>
+                <article>
+                    <img src="https://via.placeholder.com/250" alt="Erzurum Tereyağı 5000 gr">
+                    <h3>Erzurum Tereyağı 5000 gr <br><span style="font-size: 12px; color: #7f8c8d;">(Net 4830 gr)</span></h3>
+                    <p class="fiyat">3.230 ₺</p>
+                    <button class="sepete-ekle-butonu" data-urun="Erzurum Tereyağı 5000 gr (Net 4830 gr)" data-fiyat="3230">Sepete Ekle</button>
+                </article>
+                <article>
+                    <img src="https://via.placeholder.com/250" alt="Erzurum Topak Tereyağı 1000 gr">
+                    <h3>Erzurum Topak Tereyağı (1000 gr)</h3>
+                    <p class="fiyat">646 ₺</p>
+                    <button class="sepete-ekle-butonu" data-urun="Erzurum Topak Tereyağı (1000 gr)" data-fiyat="646">Sepete Ekle</button>
+                </article>
+                <article>
+                    <img src="https://via.placeholder.com/250" alt="Sade Yağ">
+                    <h3>Sade Yağ (Eritilmiş Yağ) (950 gr)</h3>
+                    <p class="fiyat">779 ₺</p>
+                    <button class="sepete-ekle-butonu" data-urun="Sade Yağ (Eritilmiş Yağ) (950 gr)" data-fiyat="779">Sepete Ekle</button>
+                </article>
+            </div>
+        </section>
+
+        <section class="urun-kapsayici kategori-bolumu" id="peynirler">
+            <h2>Peynir Çeşitlerimiz</h2>
+            <div class="urun-katalogu">
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Yarım Yağlı Beyaz Peynir (4,5 kg)</h3><p class="fiyat">765 ₺</p><button class="sepete-ekle-butonu" data-urun="Yarım Yağlı Beyaz Peynir (4,5 kg)" data-fiyat="765">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Yağlı Beyaz Peynir (17 kg)</h3><p class="fiyat">2.550 ₺</p><button class="sepete-ekle-butonu" data-urun="Yağlı Beyaz Peynir (17 kg)" data-fiyat="2550">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Tam Yağlı Beyaz Peynir (17 kg)</h3><p class="fiyat">3.300 ₺</p><button class="sepete-ekle-butonu" data-urun="Tam Yağlı Beyaz Peynir (17 kg)" data-fiyat="3300">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Ezine Klasik Tam Yağlı Beyaz Peynir (600–700 gr)</h3><p class="fiyat">324 ₺</p><button class="sepete-ekle-butonu" data-urun="Ezine Klasik Tam Yağlı Beyaz Peynir (600–700 gr)" data-fiyat="324">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Yumuşak Klasik Tam Yağlı Beyaz Peynir (600–650 gr)</h3><p class="fiyat">324 ₺</p><button class="sepete-ekle-butonu" data-urun="Yumuşak Klasik Tam Yağlı Beyaz Peynir (600–650 gr)" data-fiyat="324">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Çanakkale Olgunlaştırılmış Beyaz Peynir (600–700 gr)</h3><p class="fiyat">324 ₺</p><button class="sepete-ekle-butonu" data-urun="Çanakkale Olgunlaştırılmış Beyaz Peynir (600–700 gr)" data-fiyat="324">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Gurme Olgunlaştırılmış Tam Yağlı Beyaz Peynir (600–700 gr)</h3><p class="fiyat">324 ₺</p><button class="sepete-ekle-butonu" data-urun="Gurme Olgunlaştırılmış Tam Yağlı Beyaz Peynir (600–700 gr)" data-fiyat="324">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Köy Tipi Beyaz Peynir (1.500 gr)</h3><p class="fiyat">360 ₺</p><button class="sepete-ekle-butonu" data-urun="Köy Tipi Beyaz Peynir (1.500 gr)" data-fiyat="360">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Köy Tipi Beyaz Peynir (2.000 gr)</h3><p class="fiyat">477 ₺</p><button class="sepete-ekle-butonu" data-urun="Köy Tipi Beyaz Peynir (2.000 gr)" data-fiyat="477">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Köy Tipi Beyaz Peynir (8 kg)</h3><p class="fiyat">1.650 ₺</p><button class="sepete-ekle-butonu" data-urun="Köy Tipi Beyaz Peynir (8 kg)" data-fiyat="1650">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Köy Tipi Peynir (15 kg)</h3><p class="fiyat">3.000 ₺</p><button class="sepete-ekle-butonu" data-urun="Köy Tipi Peynir (15 kg)" data-fiyat="3000">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Taze Kaşar (500 gr)</h3><p class="fiyat">207 ₺</p><button class="sepete-ekle-butonu" data-urun="Taze Kaşar (500 gr)" data-fiyat="207">Sepete Ekle</button></article>
+                
+                <article data-aciklama="Erzurum'un taze sütlerinden üretilmiş, kahvaltılarınızın vazgeçilmezi olan tam yağlı taze kaşar peyniri. %100 doğaldır.">
+                   <img src="taze-kasar.jpeg" alt="Taze Kaşar">
+                    <h3>Taze Kaşar (1.000 gr)</h3>
+                    <p class="fiyat">396 ₺</p>
+                    <button class="sepete-ekle-butonu" data-urun="Taze Kaşar (1.000 gr)" data-fiyat="396">Sepete Ekle</button>
+                </article>
+
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Eski Kaşar (500 gr)</h3><p class="fiyat">265,50 ₺</p><button class="sepete-ekle-butonu" data-urun="Eski Kaşar (500 gr)" data-fiyat="265.5">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Eski Kaşar (1.000 gr)</h3><p class="fiyat">517,50 ₺</p><button class="sepete-ekle-butonu" data-urun="Eski Kaşar (1.000 gr)" data-fiyat="517.5">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Eski Kaşar Peynir Vakumlu (1.000 gr)</h3><p class="fiyat">522 ₺</p><button class="sepete-ekle-butonu" data-urun="Eski Kaşar Peynir Vakumlu (1.000 gr)" data-fiyat="522">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Hediyelik Kaşar Peynir (1.000 gr)</h3><p class="fiyat">463,50 ₺</p><button class="sepete-ekle-butonu" data-urun="Hediyelik Kaşar Peynir (1.000 gr)" data-fiyat="463.5">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Dilimlenmiş Tam Yağlı Kaşar (1.000 gr)</h3><p class="fiyat">414 ₺</p><button class="sepete-ekle-butonu" data-urun="Dilimlenmiş Tam Yağlı Kaşar (1.000 gr)" data-fiyat="414">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Pungar Tost Kaşar Peynir (1.000 gr)</h3><p class="fiyat">351 ₺</p><button class="sepete-ekle-butonu" data-urun="Pungar Tost Kaşar Peynir (1.000 gr)" data-fiyat="351">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Erzurum Taze Civil Peynir (1.000 gr)</h3><p class="fiyat">280 ₺</p><button class="sepete-ekle-butonu" data-urun="Erzurum Taze Civil Peynir (1.000 gr)" data-fiyat="280">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Vakumlu Civil Peynir (500 gr)</h3><p class="fiyat">170 ₺</p><button class="sepete-ekle-butonu" data-urun="Vakumlu Civil Peynir (500 gr)" data-fiyat="170">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Vakumlu Civil Peynir (1.000 gr)</h3><p class="fiyat">320 ₺</p><button class="sepete-ekle-butonu" data-urun="Vakumlu Civil Peynir (1.000 gr)" data-fiyat="320">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Erzurum Yöresel Ditme Civil (820 gr)</h3><p class="fiyat">300 ₺</p><button class="sepete-ekle-butonu" data-urun="Erzurum Yöresel Ditme Civil (820 gr)" data-fiyat="300">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Civil Çeçil Ditme (1.000 gr)</h3><p class="fiyat">300 ₺</p><button class="sepete-ekle-butonu" data-urun="Civil Çeçil Ditme (1.000 gr)" data-fiyat="300">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Tel Peyniri (500 gr)</h3><p class="fiyat">283,50 ₺</p><button class="sepete-ekle-butonu" data-urun="Tel Peyniri (500 gr)" data-fiyat="283.5">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Erzurum Göğermiş Peynir (440 gr)</h3><p class="fiyat">175 ₺</p><button class="sepete-ekle-butonu" data-urun="Erzurum Göğermiş Peynir (440 gr)" data-fiyat="175">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Erzurum Göğermiş Peynir (920 gr)</h3><p class="fiyat">335 ₺</p><button class="sepete-ekle-butonu" data-urun="Erzurum Göğermiş Peynir (920 gr)" data-fiyat="335">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Erzurum Göğermiş Peynir (1.000 gr)</h3><p class="fiyat">335 ₺</p><button class="sepete-ekle-butonu" data-urun="Erzurum Göğermiş Peynir (1.000 gr)" data-fiyat="335">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Erzincan Tulum Peyniri (1.000 gr)</h3><p class="fiyat">639 ₺</p><button class="sepete-ekle-butonu" data-urun="Erzincan Tulum Peyniri (1.000 gr)" data-fiyat="639">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Tam Yağlı Lor Peyniri (1.000 gr)</h3><p class="fiyat">148,50 ₺</p><button class="sepete-ekle-butonu" data-urun="Tam Yağlı Lor Peyniri (1.000 gr)" data-fiyat="148.5">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Lor Peyniri Poşet (1.000 gr)</h3><p class="fiyat">90 ₺</p><button class="sepete-ekle-butonu" data-urun="Lor Peyniri Poşet (1.000 gr)" data-fiyat="90">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Tam Yağlı Lor Peyniri (15 kg)</h3><p class="fiyat">Stok Sorunuz</p><button class="sepete-ekle-butonu" data-urun="Tam Yağlı Lor Peyniri (15 kg)" data-fiyat="0">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Yağsız Lor Peyniri (15 kg)</h3><p class="fiyat">Stok Sorunuz</p><button class="sepete-ekle-butonu" data-urun="Yağsız Lor Peyniri (15 kg)" data-fiyat="0">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Peynir"><h3>Çeçil Ditme Peyniri (1.000 gr)</h3><p class="fiyat">300 ₺</p><button class="sepete-ekle-butonu" data-urun="Çeçil Ditme Peyniri (1.000 gr)" data-fiyat="300">Sepete Ekle</button></article>
+            </div>
+        </section>
+        
+        <section class="urun-kapsayici kategori-bolumu" id="ballar" style="background-color: #ffffff; border-top: 1px solid #eee;">
+            <h2>Bal Çeşitlerimiz</h2>
+            <div class="urun-katalogu">
+                <article><img src="https://via.placeholder.com/250" alt="Bal"><h3>Süzme Bal (Cam Kavanoz) (450 gr)</h3><p class="fiyat">199,50 ₺</p><button class="sepete-ekle-butonu" data-urun="Süzme Bal (Cam Kavanoz) (450 gr)" data-fiyat="199.5">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Bal"><h3>Süzme Bal (Cam Kavanoz) (850 gr)</h3><p class="fiyat">361 ₺</p><button class="sepete-ekle-butonu" data-urun="Süzme Bal (Cam Kavanoz) (850 gr)" data-fiyat="361">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Bal"><h3>Süzme Çiçek Balı (1000 gr)</h3><p class="fiyat">361 ₺</p><button class="sepete-ekle-butonu" data-urun="Süzme Çiçek Balı (1000 gr)" data-fiyat="361">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Bal"><h3>Şekersiz Süzme Bal Dökme (1 kg)</h3><p class="fiyat">522,50 ₺</p><button class="sepete-ekle-butonu" data-urun="Şekersiz Süzme Bal Dökme (1 kg)" data-fiyat="522.5">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Bal"><h3>Özel Seçim Süzme Çiçek Balı (450 gr)</h3><p class="fiyat">270,75 ₺</p><button class="sepete-ekle-butonu" data-urun="Özel Seçim Süzme Çiçek Balı (450 gr)" data-fiyat="270.75">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Bal"><h3>Özel Seçim Süzme Çiçek Balı (850 gr)</h3><p class="fiyat">522,50 ₺</p><button class="sepete-ekle-butonu" data-urun="Özel Seçim Süzme Çiçek Balı (850 gr)" data-fiyat="522.5">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Bal"><h3>Petek Bal Erzurum (1000 gr)</h3><p class="fiyat">361 ₺</p><button class="sepete-ekle-butonu" data-urun="Petek Bal Erzurum (1000 gr)" data-fiyat="361">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Bal"><h3>Karakovan Erzurum Petek Bal (1.250–1.300 gr)</h3><p class="fiyat">655,50 ₺</p><button class="sepete-ekle-butonu" data-urun="Karakovan Erzurum Petek Bal (1.250–1.300 gr)" data-fiyat="655.5">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Bal"><h3>Erzurum Kütük Karakovan Balı (1 kg)</h3><p class="fiyat">902,50 ₺</p><button class="sepete-ekle-butonu" data-urun="Erzurum Kütük Karakovan Balı (1 kg)" data-fiyat="902.5">Sepete Ekle</button></article>
+            </div>
+        </section>
+
+        <section class="urun-kapsayici kategori-bolumu" id="yoresel">
+            <h2>Erzurum Yöresel Ürünler</h2>
+            <div class="urun-katalogu">
+                <article><img src="https://via.placeholder.com/250" alt="Yöresel Ürün"><h3>Salamura Aşotu (1 kg)</h3><p class="fiyat">210 ₺</p><button class="sepete-ekle-butonu" data-urun="Salamura Aşotu (1 kg)" data-fiyat="210">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Yöresel Ürün"><h3>Çaşır Salamura (5 kg)</h3><p class="fiyat">1.400 ₺</p><button class="sepete-ekle-butonu" data-urun="Çaşır Salamura (5 kg)" data-fiyat="1400">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Yöresel Ürün"><h3>İspir Köy Dut Pekmezi (1000 gr)</h3><p class="fiyat">315 ₺</p><button class="sepete-ekle-butonu" data-urun="İspir Köy Dut Pekmezi (1000 gr)" data-fiyat="315">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Yöresel Ürün"><h3>Dut Pekmezi (640 gr)</h3><p class="fiyat">198 ₺</p><button class="sepete-ekle-butonu" data-urun="Dut Pekmezi (640 gr)" data-fiyat="198">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Yöresel Ürün"><h3>Dut Pekmezi (Taze Dut) (1000 gr)</h3><p class="fiyat">324 ₺</p><button class="sepete-ekle-butonu" data-urun="Dut Pekmezi (Taze Dut) (1000 gr)" data-fiyat="324">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Yöresel Ürün"><h3>Keçi Boynuzu Özü (640 gr)</h3><p class="fiyat">229,50 ₺</p><button class="sepete-ekle-butonu" data-urun="Keçi Boynuzu Özü (640 gr)" data-fiyat="229.5">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Yöresel Ürün"><h3>Erzurum Peynir Helvası (Horis) (500 gr)</h3><p class="fiyat">270 ₺</p><button class="sepete-ekle-butonu" data-urun="Erzurum Peynir Helvası (Horis) (500 gr)" data-fiyat="270">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Yöresel Ürün"><h3>Erzurum Sütlü Yumurtalı Köy Eriştesi (400 gr)</h3><p class="fiyat">94,50 ₺</p><button class="sepete-ekle-butonu" data-urun="Erzurum Sütlü Yumurtalı Köy Eriştesi (400 gr)" data-fiyat="94.5">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Yöresel Ürün"><h3>Erzurum Çorbalık Erişte (500 gr)</h3><p class="fiyat">108 ₺</p><button class="sepete-ekle-butonu" data-urun="Erzurum Çorbalık Erişte (500 gr)" data-fiyat="108">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Yöresel Ürün"><h3>Erzurum Gavut Unu (600 gr)</h3><p class="fiyat">58,50 ₺</p><button class="sepete-ekle-butonu" data-urun="Erzurum Gavut Unu (600 gr)" data-fiyat="58.5">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Yöresel Ürün"><h3>Erzurum Tandır Ekmeği (5 Adet)</h3><p class="fiyat">103,50 ₺</p><button class="sepete-ekle-butonu" data-urun="Erzurum Tandır Ekmeği (5 Adet)" data-fiyat="103.5">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Yöresel Ürün"><h3>Erzurum Tereyağlı Kete (1 Adet)</h3><p class="fiyat">58,50 ₺</p><button class="sepete-ekle-butonu" data-urun="Erzurum Tereyağlı Kete (1 Adet)" data-fiyat="58.5">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Yöresel Ürün"><h3>Erzurum Tel Kadayıf (500 gr)</h3><p class="fiyat">81 ₺</p><button class="sepete-ekle-butonu" data-urun="Erzurum Tel Kadayıf (500 gr)" data-fiyat="81">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Yöresel Ürün"><h3>Erzurum Kıtlama Kesme Şeker (650 gr)</h3><p class="fiyat">58,50 ₺</p><button class="sepete-ekle-butonu" data-urun="Erzurum Kıtlama Kesme Şeker (650 gr)" data-fiyat="58.5">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Yöresel Ürün"><h3>Ekşi Erik Pestili (1000 gr)</h3><p class="fiyat">182,25 ₺</p><button class="sepete-ekle-butonu" data-urun="Ekşi Erik Pestili (1000 gr)" data-fiyat="182.25">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Yöresel Ürün"><h3>Ekşi Kızılcık Pestili (1000 gr)</h3><p class="fiyat">324 ₺</p><button class="sepete-ekle-butonu" data-urun="Ekşi Kızılcık Pestili (1000 gr)" data-fiyat="324">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Yöresel Ürün"><h3>Yusufeli Sade Köme (1000 gr)</h3><p class="fiyat">384,75 ₺</p><button class="sepete-ekle-butonu" data-urun="Yusufeli Sade Köme (1000 gr)" data-fiyat="384.75">Sepete Ekle</button></article>
+                <article><img src="https://via.placeholder.com/250" alt="Yöresel Ürün"><h3>Erzurum Hınıs Kuru Fasulyesi (900 gr)</h3><p class="fiyat">297 ₺</p><button class="sepete-ekle-butonu" data-urun="Erzurum Hınıs Kuru Fasulyesi (900 gr)" data-fiyat="297">Sepete Ekle</button></article>
+            </div>
+        </section>
+
+    </main>
+
+    <div id="urun-modal" class="modal">
+        <div class="modal-icerik">
+            <span class="kapat-butonu">&times;</span>
+            <div class="modal-sol">
+                <img id="modal-img" src="" alt="Ürün Görseli">
+            </div>
+            <div class="modal-sag">
+                <h2 id="modal-baslik">Ürün Adı</h2>
+                <p id="modal-fiyat" class="fiyat">0 ₺</p>
+                <p id="modal-aciklama">Ürün açıklaması burada yer alacak...</p>
+                <button id="modal-sepete-ekle" class="sepete-ekle-butonu">Sepete Ekle</button>
+            </div>
+        </div>
+    </div>
+    
+    <div id="toast-container"></div>
+
+    <footer>
+        <div class="sosyal-medya">
+            <a href="INSTAGRAM_LINKI" target="_blank">Instagram</a> | 
+            <a href="FACEBOOK_LINKI" target="_blank">Facebook</a>
+        </div>
+        <p>© 2026 EFE Süt. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
